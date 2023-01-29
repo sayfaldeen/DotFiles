@@ -467,7 +467,7 @@ let g:floaterm_keymap_new    = '<Leader>fn'
 let g:floaterm_keymap_kill   = '<Leader>fk'
 
 " Set up functions for floating window support of git
-command G :FloatermNew --height=0.9 --width=0.9 --wintype=float --name=Git --position=center --autoclose=0 lazygit
+command LG :FloatermNew --height=0.9 --width=0.9 --wintype=float --name=Git --position=center --autoclose=0 lazygit
 
 
 " autoclose: 0 (never), 1 (if job exists normally;else return error), 2 (always)
